@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+:root {
+    --yellow-color: #FFCB13;
+    --red-color: #E93333;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    background: #EAEAEA;
+    flex-wrap: wrap;
+    z-index: 100;
+}
+
+.nav-2 {
+    display: flex;
+    align-items: self-start;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.nav-links a{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 25px;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.nav-links a:hover{
+    color: var(--red-color);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 25px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links .ic {
+    margin-right: 5px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.nav-links .ico {
+    margin-right: 5px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.logo2 {
+   position: absolute;
+   top: 0;
+   right: 3rem;
+   z-index: 1200;
+}
+
+.logo1 {
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-btn {
+    border: none;
+    width: 202px;
+    height: 36px;
+    border-radius: 9px;
+    flex-shrink: 0;
+    background: rgba(233, 51, 51, 0.08);
+    color: #E93333;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.nav-btn2 {
+    border: none;
+    width: 202px;
+    height: 36px;
+    border-radius: 9px;
+    flex-shrink: 0;
+    background: #E93333;
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.nav-btn .ic1 {
+    margin-right: 5px;
+} 
+
+.nav-btn2 .ic1 {
+    margin-right: 5px;
+    align-items: center;
+} 
+
+.nav-bot-link {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.nav-bot-link h4 {
+    color: #A1A1A1;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    margin-right: 10px;
+}
